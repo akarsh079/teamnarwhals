@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAAARS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <h1>hello world!</h1>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">SAAARS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Our Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="people/sriya/index.html">Sriya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://avik-s.github.io/him">Avik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#akarsh">Akarsh</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="people/arushi/arushi.html">Arushi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ryan">Ryan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="people/siddharth/Sid.html">Siddharth</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="everyone-cards">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="people/sriya/sriya.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sriya</h5>
+              <p class="card-text">Our Site Architect<br>Learn more about her on her page</p>
+              <a href="people/sriya/index.html" class="btn btn-primary">Her Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="people/images.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Avik</h5>
+              <p class="card-text">Our Front-End Developer<br>Learn more about him on his page</p>
+              <a href="#" class="btn btn-primary">His Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="people/images.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Akarsh</h5>
+              <p class="card-text">Our Webmaster <br>Learn more about him on his page</p>
+              <a href="#" class="btn btn-primary">His Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="people/arushi/arushi.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arushi</h5>
+              <p class="card-text">Our Quality Assurance Specialist<br>Learn more about her on her page</p>
+              <a href="people/arushi/arushi.html" class="btn btn-primary">Her Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="people/images.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ryan</h5>
+              <p class="card-text">Our Back-End Developer and Tech Support<br>Learn more about him on his page</p>
+              <a href="#" class="btn btn-primary">His Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="people/siddharth/sid.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Siddharth</h5>
+              <p class="card-text">Our Content Specialist<br>Learn more about him on his page</p>
+              <a href="people/siddharth/Sid.html" class="btn btn-primary">His Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
